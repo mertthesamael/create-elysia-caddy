@@ -7,6 +7,6 @@ Basically, i just added a new template for Caddy Server.
 
 
 ```bash
-bunx create elysia-caddy
+bun create elysia-caddy
 ```
 
