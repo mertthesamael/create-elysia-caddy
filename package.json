@@ -1,7 +1,7 @@
 {
   "name": "create-elysia-caddy",
-  "version": "0.5.0",
-  "description": "Scaffolding Your First Elysia.js Project",
+  "version": "1.0.0",
+  "description": "Create your Elysia.js Project with Caddy Server!",
   "author": {
     "name": "Mert Enercan",
     "email": "mertenercan@gmail.com",
