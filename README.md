@@ -1,60 +1,12 @@
-# create-elysia
 
-## Scaffolding Your First [Elysia.js](https://elysiajs.com) Project
+# IMPORTANT
 
-With Bun:
+Well, i directly copied the code from [create-elysia](https://github.com/bogeychan/create-elysia) and modified it for my own use. Worked like a charm.
 
-```bash
-bunx create-elysia@latest
-```
+Basically, i just added a new template for Caddy Server.
 
-With NPM:
 
 ```bash
-npm create elysia@latest
+bunx create elysia-caddy
 ```
-
-With Yarn:
-
-```bash
-yarn create elysia
-```
-
-With PNPM:
-
-```bash
-pnpm create elysia
-```
-
-With Deno:
-
-```bash
-deno run -r=npm:create-elysia --allow-read --allow-write npm:create-elysia
-```
-
-Then follow the prompts!
-
-You can also directly specify the project name and the template you want to use via additional command line arguments. For example, to scaffold a `Bun` project, run:
-
-```bash
-yarn create elysia my-elysia-app --template bun
-```
-
-Currently supported template presets include:
-
-- `bun`
-- `deno`
-- `node`
-- `node-ts`
-- `plugin`
-
-You can use `.` for the project name to scaffold in the current directory.
-
-## Credits ❤️
-
-This project was inspired by [create-vite](https://www.npmjs.com/package/create-vite)
-
-## License
-
-[MIT](LICENSE)
 
