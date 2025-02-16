@@ -37,22 +37,6 @@ export function getCommandsFor({ targetDir, template }) {
     case 'bun':
       commands.push('bun i', 'bun run main.ts');
       break;
-
-    case 'deno':
-      commands.push('deno task start');
-      break;
-
-    case 'node':
-      commands.push('npm i', 'npm start');
-      break;
-
-    case 'node-ts':
-      commands.push('npm i', 'npm start');
-      break;
-
-    case 'plugin':
-      commands.push('bun i', 'bun run dev');
-      break;
   }
 
   return commands;

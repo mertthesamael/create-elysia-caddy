@@ -1,15 +1,22 @@
 {
-  "name": "$PROJECT_NAME$",
-  "type": "module",
+  "name": "elysia-caddy",
+  "version": "1.1.0",
+  "authors": [
+    {
+      "name": "Mert Enercan",
+      "email": "mertenercan@gmail.com ",
+      "url": "https://merto.dev"
+    }
+  ],
   "scripts": {
-    "start": "bun run main.ts",
-    "typecheck": "tsc"
-  },
-  "devDependencies": {
-    "@types/bun": "1",
-    "typescript": "5"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
-    "elysia": "1"
-  }
+    "elysia": "latest"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "module": "src/index.js"
 }

@@ -3,13 +3,13 @@
   "version": "0.0.28",
   "description": "Scaffolding Your First Elysia.js Project",
   "author": {
-    "name": "bogeychan",
-    "url": "https://github.com/bogeychan",
-    "email": "bogeychan@outlook.com"
+    "name": "Mert Enercan",
+    "email": "mertenercan@gmail.com",
+    "url": "https://merto.dev"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bogeychan/create-elysia"
+    "url": "https://github.com/mertthesamael/create-elysia-caddy"
   },
   "type": "module",
   "bin": {
@@ -23,12 +23,16 @@
   "devDependencies": {
     "@types/node": "^18.16.0"
   },
-  "homepage": "https://github.com/bogeychan/create-elysia",
-  "bugs": "https://github.com/bogeychan/create-elysia/issues",
+  "originalAuthor": {
+    "name": "Bogey Chan",
+    "url": "https://github.com/bogeychan",
+    "email": "bogeychan@outlook.com"
+  },
   "license": "MIT",
   "keywords": [
     "elysia",
-    "create-elysia"
+    "create-elysia-caddy",
+    "elysia-caddy"
   ],
   "dependencies": {
     "minimist": "^1.2.8",

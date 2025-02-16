@@ -1,6 +1,0 @@
-{
-    "type": "commonjs",
-    "dependencies": {
-        "$PROJECT_NAME$": "../../.."
-    }
-}

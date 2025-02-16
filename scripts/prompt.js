@@ -15,22 +15,6 @@ function TEMPLATES(message) {
       {
         title: 'Bun',
         value: 'bun'
-      },
-      {
-        title: 'Deno',
-        value: 'deno'
-      },
-      {
-        title: 'Node.js - Typescript/ESM',
-        value: 'node-ts'
-      },
-      {
-        title: 'Node.js - CommonJS',
-        value: 'node'
-      },
-      {
-        title: 'Plugin',
-        value: 'plugin'
       }
     ]
   };

@@ -6,8 +6,6 @@ import fs from 'node:fs';
 import path from 'node:path';
 import minimist from 'minimist';
 
-import './scripts/deno-polyfills.js';
-
 import {
   promptOptions,
   promptOnInvalidTemplate,
@@ -23,7 +21,7 @@ import {
   readScaffoldingConfigOnce
 } from './scripts/utils.js';
 
-const DEFAULT_TARGET_DIR = 'elysia-project';
+const DEFAULT_TARGET_DIR = 'elysia-caddy-project';
 
 try {
   /**
