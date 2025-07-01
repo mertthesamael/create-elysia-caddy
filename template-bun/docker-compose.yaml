@@ -2,16 +2,19 @@ services:
   app:
     build:
       context: .
-      target: base
-    command: bun dev
+      target: build
+    command: /app/server
     volumes:
-      - .:/app
+      - ./src:/app/src
     networks:
       app_network:
         aliases:
           - app
     extra_hosts:
       - "host.docker.internal:host-gateway"
+    expose:
+      - "3000"
+    restart: unless-stopped
 
   caddy:
     build: .
@@ -19,12 +22,12 @@ services:
       - "80:80"
       - "443:443"
     volumes:
-      - .:/app
+      - ./src:/app/src
       - caddy_data:/data
       - caddy_config:/config
       - caddy_logs:/var/log/caddy
     environment:
-      - HOSTNAME=caddyelysia.merto.dev
+      - HOSTNAME=not-used
     depends_on:
       - app
     networks:
@@ -43,3 +46,6 @@ volumes:
   caddy_data:
   caddy_config:
   caddy_logs:
+
+# Enable Docker Swarm mode
+version: '3.8'
